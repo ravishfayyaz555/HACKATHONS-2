@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Resume Builder By Ravish Fayyaz</h1>
+
+  <div class="form-container">
+    <form id="resumeForm">
+      <input type="text" id="name" placeholder="Enter your name" required><br><br>
+
+      <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+      <input type="tel" id="phone" placeholder="Enter your phone number" required><br><br>
+
+      <input type="text" id="education" placeholder="Enter your education" required><br><br>
+
+      <textarea id="skills" placeholder="Enter your skills" required></textarea><br><br>
+
+      <textarea id="experience" placeholder="Enter your experience"></textarea><br><br>
+
+      <button type="submit">Generate Resume</button>
+    </form>
+  </div>
+
+  <div id="resumeOutput" class="resume-output">
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
